@@ -1,5 +1,5 @@
 body{
-	background:black;
+	background-color:black;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -16,6 +16,7 @@ body{
 .square{
 	width:15px;
 	height:15px;
+	background-color:rgb(29,29,29);
 	transition:background 1s ease;
 }
 
