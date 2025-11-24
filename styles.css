@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+body{
+	background:black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:0;
+	height:100vh;
+}
+.container{
+	display:grid;
+	grid-template-columns:repeat(40,1fr);
+	gap:2px;
+	width:600px
+}
+
+.square{
+	width:15px;
+	height:15px;
+	transition:background 1s ease;
+}
+
