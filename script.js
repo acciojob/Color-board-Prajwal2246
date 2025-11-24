@@ -11,7 +11,7 @@ for(let i=0;i<squares;i++){
 		square.style.background=color;
 
 		setTimeout(()=>{
-			square.style.background="black";
+			square.style.backgroundColor="rgb(29,29,29)";
 		},1000)
 	})
 	board.appendChild(square)
